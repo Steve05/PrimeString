@@ -1,6 +1,0 @@
-c:\users\steve.yeh25\documents\visual studio 2017\Projects\Prime\PrimeTests\bin\Debug\PrimeString.dll
-c:\users\steve.yeh25\documents\visual studio 2017\Projects\Prime\PrimeTests\bin\Debug\PrimeString.pdb
-c:\users\steve.yeh25\documents\visual studio 2017\Projects\Prime\PrimeTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-c:\users\steve.yeh25\documents\visual studio 2017\Projects\Prime\PrimeTests\obj\Debug\PrimeTests.csprojResolveAssemblyReference.cache
-c:\users\steve.yeh25\documents\visual studio 2017\Projects\Prime\PrimeTests\obj\Debug\PrimeString.dll
-c:\users\steve.yeh25\documents\visual studio 2017\Projects\Prime\PrimeTests\obj\Debug\PrimeString.pdb
