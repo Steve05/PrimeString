@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.VisualStudio.TestTools.UnitTesting.Web;
 
 namespace PrimeString
 {
@@ -75,16 +73,11 @@ namespace PrimeString
     {
         public bool IsPrimeString(string inputString)
         {
-            if (inputString.Length <= 1)
-            {
-                return true;
-            }
 
             for (int i = 1; i <= inputString.Length / 2; i++)
             {
                 if (inputString.Split(new[] { inputString.Substring(0, i) }, StringSplitOptions.RemoveEmptyEntries)
-                        .Where(x => x.Length > 0)
-                        .LongCount() == 0)
+                        .LongCount(x => x.Length > 0) == 0)
                 {
                     return false;
                 }
